@@ -15,9 +15,11 @@ if (nilai >= 88) {
   hasil = "Nilai B (Baik)"
 } else if (nilai >=50) {
   hasil = "Nilai C (Cukup)"
-} else if (nilai >= 0) {
+} else if (nilai >= 30) {
   hasil = " Nilai D (kurang)"
-}
+}else if (nilai >= 0)
+hasil = " Nilai E (sangat-sangat kurang)"
+
 //tampilkan isi variabel "hasil" ke elemen "hasil" di html
 document.getElementById('hasil').innerText = hasil
 }
