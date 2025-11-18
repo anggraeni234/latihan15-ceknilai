@@ -18,7 +18,7 @@ if (nilai >= 88) {
 } else if (nilai >= 30) {
   hasil = " Nilai D (kurang)"
 }else if (nilai >= 0)
-hasil = " Nilai E (sangat-sangat kurang)"
+hasil = " Nilai E (sangat jelek)"
 
 //tampilkan isi variabel "hasil" ke elemen "hasil" di html
 document.getElementById('hasil').innerText = hasil
